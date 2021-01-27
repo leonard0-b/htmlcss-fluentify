@@ -34,7 +34,7 @@ div ul li {
 div ul li a {
   text-decoration: none;
   color: #ffffff;
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 .left {
@@ -46,4 +46,18 @@ div ul li a {
   position: absolute;
   right: 50px;
   top: 0;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.login {
+  padding: 10px 30px;
+  border: 1px solid white;
+}
+
+.green {
+  background-color: #7cbb02;
 }
