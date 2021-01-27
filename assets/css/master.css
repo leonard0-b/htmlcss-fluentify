@@ -12,6 +12,10 @@
   position: relative;
 }
 
+header {
+  background-color: #0c325a;
+}
+
 .logo {
   display: inline-block;
 }
@@ -60,4 +64,36 @@ div ul li a {
 
 .green {
   background-color: #7cbb02;
+}
+
+.plan {
+  padding: 15px 20px;
+  position: absolute;
+  bottom: 100px;
+}
+
+.title {
+  font-size: 70px;
+  color: white;
+  padding-top: 100px;
+  padding-right: 500px;
+  padding-bottom: 200px;
+}
+
+.container-jumbo {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  margin-top: 100px;
+}
+
+.jumbo {
+  width: 1200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+section {
+  position: relative;
 }
