@@ -121,11 +121,11 @@ div ul li a {
   padding: 40px;
 }
 
-div > h1 {
+.text_100 > h2 {
   margin-bottom: 10px;
 }
 
-div > p {
+.text_100 > p {
   color: #808080;
 }
 
