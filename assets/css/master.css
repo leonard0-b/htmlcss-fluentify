@@ -55,6 +55,9 @@ div ul li a {
 .btn {
   border-radius: 5px;
   padding: 10px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .login {
@@ -69,15 +72,15 @@ div ul li a {
 .plan {
   padding: 15px 20px;
   position: absolute;
-  bottom: 100px;
+  bottom: 200px;
 }
 
 .title {
   font-size: 70px;
   color: white;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-right: 500px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
 }
 
 .container-jumbo {
