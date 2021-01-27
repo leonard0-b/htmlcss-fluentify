@@ -5,11 +5,16 @@
   font-family: 'Roboto', sans-serif;
  }
 
+ .row:after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+
 .container {
   background-color: #0c325a;
   width: 80%;
   margin: auto;
-  height: 80px;
   position: relative;
 }
 
@@ -103,11 +108,15 @@ div ul li a {
   position: relative;
 }
 
-.row100 {
+.row {
+  margin-top: 50px;
+}
+
+.row_100 {
   background-color: #d3d3d3;
 }
 
-.text100 {
+.text_100 {
   text-align: center;
   padding: 40px;
 }
@@ -118,4 +127,51 @@ div > h1 {
 
 div > p {
   color: #808080;
+}
+
+.container_col {
+  width: 80%;
+  margin: auto;
+}
+
+.col {
+  float: left;
+}
+
+.w25 {
+  width: calc(100% / 3);
+  padding: 0 50px;
+  background-color: transparent;
+}
+
+.w25 > img {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin: auto;
+  display: block;
+}
+
+.w25 > h3 {
+  text-align: center;
+  color: #7cbb02;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.w25 > p {
+  text-align: center;
+  color: #808080;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;;
+}
+
+.w50 {
+  width: calc(100% / 2);
+  background-color: green;
+  height: 100px;
+  border: 1px solid black;
 }
