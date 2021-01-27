@@ -197,13 +197,53 @@ div > p {
   color: #5586bc;
 }
 
-footer .row_100 {
+.footer_row {
+  width: 80%;
+  margin: auto;
   position: relative;
+}
+
+footer {
+  background-color: #d3d3d3;
 }
 
 footer .row_100 p {
   font-size: 30px;
-  padding: 70px 200px;;
+  padding: 70px 200px;
   color: black;
   font-weight: bold;
+  display: inline-block;
+}
+
+footer .row_100 span {
+  font-size: 20px;
+  color: #808080;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+footer .row_100 .selection {
+  font-size: 23px;
+  text-decoration: underline;
+}
+
+footer .row_100 .selection:after {
+  content: "\25BE";
+}
+
+footer .row_100 .green {
+  padding: 20px;
+}
+
+.footer_text_left {
+  position: absolute;
+  right: 20px;
+  bottom: 70px;
+}
+
+.help {
+  position: fixed;
+  bottom: 20px;;
+  right: 20px;
+  z-index: 1;
 }
