@@ -3,16 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
- }
+}
 
- .row:after {
-   content: "";
-   clear: both;
-   display: table;
- }
+.row:after {
+ content: "";
+ clear: both;
+ display: table;
+}
 
 .container {
-  background-color: #0c325a;
   width: 80%;
   margin: auto;
   position: relative;
@@ -24,6 +23,7 @@ header {
 
 .logo {
   display: inline-block;
+  vertical-align: middle;
 }
 
 div img {
@@ -32,10 +32,13 @@ div img {
 
 div ul {
   display: inline-block;
+  line-height: 80px;
+  height: 80px;
+  vertical-align: middle;
+  padding-top: 4px;
 }
 
 div ul li {
-  line-height: 80px;
   text-transform: uppercase;
   list-style: none;
   display: inline-block;
@@ -76,18 +79,18 @@ div ul li a {
 }
 
 .plan {
-  padding: 15px 20px;
+  padding: 25px 40px;
   position: absolute;
-  bottom: 150px;
+  bottom: 280px;
 }
 
-.title {
+.title > h1 {
   font-weight: bold;
   font-size: 70px;
   color: white;
   padding-top: 50px;
-  padding-right: 700px;
-  padding-bottom: 250px;
+  padding-right: 60%;
+  padding-bottom: 430px;
 }
 
 .container-jumbo {
@@ -97,15 +100,11 @@ div ul li a {
   margin-top: 100px;
 }
 
-.jumboimg {
-  width: 1200px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
 .jumbo_section{
-  position: relative;
+  background-image: url(../img/background-header.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: 110% 92%;
 }
 
 .row {
@@ -127,11 +126,7 @@ div ul li a {
 
 .text_100 > p {
   color: #808080;
-}
-
-.container_col {
-  width: 80%;
-  margin: auto;
+  font-size: 25px;
 }
 
 .col {
@@ -155,7 +150,7 @@ div ul li a {
 .w25 > h3 {
   text-align: center;
   color: #7cbb02;
-  font-size: 30px;
+  font-size: 35px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -163,7 +158,7 @@ div ul li a {
 .w25 > p {
   text-align: center;
   color: #808080;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;;
@@ -175,26 +170,31 @@ div ul li a {
 }
 
 .w50 > img {
-  width: 700px;
+  width: 600px;
+  margin-left: 130px;
 }
 
 .text_w50 {
   text-align: left;
-  padding-right: 200px;
+  padding-right: 255px;
+  margin-left: 100px;
 }
 
 .text_w50 > h1 {
   font-size: 40px;
   line-height: 45px;
+  margin-bottom: 30px;
 }
 
 .text_w50 > p {
   font-size: 25px;
   margin-bottom: 30px;
+  color: #808080;
 }
 
 .text_w50 > a {
   color: #5586bc;
+  font-size: 25px;
 }
 
 .footer_row {
@@ -232,7 +232,7 @@ footer .row_100 .selection:after {
 }
 
 footer .row_100 .green {
-  padding: 20px;
+  padding: 25px 40px;
 }
 
 .footer_text_left {
@@ -241,9 +241,26 @@ footer .row_100 .green {
   bottom: 70px;
 }
 
+.footer_text_left span {
+  font-size: 20px;
+}
+
 .help {
   position: fixed;
   bottom: 20px;;
   right: 20px;
   z-index: 1;
+}
+
+.custom_select {
+  display: inline-block;
+}
+
+.custom_select select {
+  border: none;
+  border-bottom: 1px solid #808080;
+  background: none;
+  font-size: 25px;
+  color: #808080;
+  width: 170px;
 }
